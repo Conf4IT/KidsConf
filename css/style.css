@@ -360,12 +360,19 @@ section.section {
  --- Parallax ---
 ============================= */
 
-#parallax1{	
+#parallax1{
 	background-image: url(../img/parallax/img2.jpg);
-	height:600px;
+	background-repeat: no-repeat;
+	background-clip: border-box;
+	background-origin: padding-box;
+	background-size: cover;
 }
-#parallax2{	
-	background-image: url(../img/parallax/img2.jpg);
+#parallax2{
+	background-image: url(../img/parallax/img1.jpg);
+	background-repeat: no-repeat;
+	background-clip: border-box;
+	background-origin: padding-box;
+	background-size: cover;
 }
 #testimonials{	
 	background-image: url(../img/parallax/robotitos.png);
@@ -374,9 +381,9 @@ section.section {
   --- Header & menu ----
 =========================== */
 .navbar {
-	line-height: 100px;
-	height: 100px;
-	background-color: #00A7A0;
+	line-height: 60px;
+	height: 60px;
+	background-color: rgba(0,167,160,0.5);
 	display: block;
 	vertical-align: middle;
 	text-align: center;

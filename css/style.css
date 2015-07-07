@@ -1127,3 +1127,8 @@ Media queries
 		margin-bottom: 30px;
 	}
 }
+.vcenter {
+	display: table-cell;
+	vertical-align: middle;
+	float: none;
+}

@@ -427,7 +427,7 @@ section.section {
 }
 
 .navbar .navbar-nav > .active > a {
-	color: #FFF;
+	color: #FFF !important;
 }
 .navbar .navbar-nav > .active > a {
 	padding-bottom: 22px;
